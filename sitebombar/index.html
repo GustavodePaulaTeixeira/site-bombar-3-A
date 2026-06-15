@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Casa do Baralho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">
+            <h1>A casa do <br> <span>Baralho</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#campeonato">Campeonato</a></li>
+                <li><a href="#inscricao">Inscrição</a></li>
+                <li><a href="#cardapio">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="card-icon">🂡</div>
+        <h2>O BAR DO TRUCO</h2>
+        <p>Onde o Truco é lei!</p>
+        <div class="cta-buttons">
+            <a href="#inscricao" class="btn btn-gold">INSCREVA SEU TRIO</a>
+            <a href="#cardapio" class="btn btn-blue">SAIBA MAIS</a>
+        </div>
+    </section>
+
+
+    <!-- TABELA DO CAMPEONATO -->
+    <section class="campeonato" id="campeonato">
+        <h2>CAMPEONATO DE TRUCO 2026</h2>
+        <div class="grid-precos">
+            <div class="grid-item"><strong>16</strong><br>GRUPOS</div>
+            <div class="grid-item"><strong>TRIOS</strong><br>3 jogadores</div>
+            <div class="grid-item"><strong>20 GRUPOS</strong></div>
+            <div class="grid-item"><strong>DUPLAS</strong><br>2 jogadores</div>
+            <div class="grid-item gold-bg">R$ 1000<span>Por Trio</span></div>
+            <div class="grid-item gold-bg">R$ 8000<span>Prêmio Total</span></div>
+            <div class="grid-item gold-bg">R$ 400<span>Por Dupla</span></div>
+            <div class="grid-item gold-bg">R$ 4000<span>Prêmio Total</span></div>
+        </div>
+    </section>
+
+
+    <!-- FORMULÁRIO DE INSCRIÇÃO -->
+    <section class="inscricao" id="inscricao">
+        <div class="form-container">
+            <h3>Inscreva seu Trio</h3>
+            <form>
+                <label>Nome do trio:</label>
+                <input type="text" placeholder="Ex: Os Trucadores">
+                <label>Jogador 1 (Nome completo):</label>
+                <input type="text">
+                <label>Jogador 2 (Nome completo):</label>
+                <input type="text">
+                <label>Jogador 3 (Nome completo):</label>
+                <input type="text">
+                <label>Telefone para contato:</label>
+                <input type="tel" placeholder="(00) 00000-0000">
+                <button type="submit" class="btn-submit">Inscrever trio</button>
+            </form>
+        </div>
+    </section>
+   
+    <!-- CARDÁPIO -->
+    <section class="cardapio" id="cardapio">
+        <h2 class="section-title">CARDÁPIO</h2>
+       
+        <h3>Bebidas</h3>
+        <div class="menu-grid">
+            <!-- ITEM CONTAINER -->
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="pilsen.jfif" alt="Cerveja Pilsen 600ml">
+                    <span>Cerveja Pilsen 600ml</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 12</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="artesanal.jfif" alt="Cerveja Artesanal">
+                    <span>Cerveja Artesanal</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 12</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="caipirinha.jfif" alt="Caipirinha">
+                    <span>Caipirinha</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 16</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="whisky.jfif" alt="Dose de Whisky">
+                    <span>Dose de Whisky</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 22</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="cocacola.jfif" alt="Refrigerante ou Suco">
+                    <span>Refrigerante / Suco</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 7</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="agua.jfif" alt="Água Mineral">
+                    <span>Água Mineral</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 5</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+        </div>
+
+
+        <h3>Porções</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="batatafrita.jfif" alt="Porção de Batata Frita">
+                    <span>Batata Frita</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 35</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="calabresa.jfif" alt="Porção de Calabresa Acebolada">
+                    <span>Calabresa Acebolada</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 38</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="frango.jfif" alt="Porção de Frango a Passarinho">
+                    <span>Frango a Passarinho</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 40</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="torresmo.jfif" alt="Porção de Torresmo">
+                    <span>Torresmo</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 30</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="mandioca.jfif" alt="Porção de Mandioca Frita">
+                    <span>Mandioca Frita</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 28</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <div class="item-esquerdo">
+                    <img src="petisco.jfif" alt="Tábua de Petiscos Completa">
+                    <span>Tábua de Petiscos</span>
+                </div>
+                <div class="item-direito">
+                    <span class="preco">R$ 55</span>
+                    <a href="carrinho.html" class="btn-add">Adicionar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- RODAPÉ -->
+    <footer>
+        <h4>A Casa do Baralho</h4>
+        <p>📍 Rua Cândido Lopes Araújo, Canha, 39 | ⏰ 13:00 às 01:00</p>
+        <p>© 2025 A Casa do Baralho. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <!-- BOTÃO DO CARRINHO FLUTUANTE -->
+    <a href="carrinho.html" class="carrinho-flutuante" aria-label="Ver carrinho">
+        <span class="icone-carrinho">🛒</span>
+    </a>
+
+
+</body>
+</html>
